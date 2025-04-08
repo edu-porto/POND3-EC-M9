@@ -20,6 +20,9 @@ python remetente.py "01101001" | python destinatario.py
 
 ## Funcionamento
 
+https://youtu.be/8gLjCYtPzDI
+
+
 ### Remetente
 1. Recebe uma sequência de bits como entrada
 2. Adiciona o código de Hamming para correção de erros
@@ -32,7 +35,7 @@ python remetente.py "01101001" | python destinatario.py
 3. Verifica e corrige erros usando o código de Hamming
 4. Exibe a mensagem decodificada
 
-![alt text](image.png)
+![alt text](atividade.png)
 ## Correção de Erros
 
 O sistema utiliza o código de Hamming para detectar e corrigir erros de 1 bit no payload. O código de Hamming adiciona bits de paridade em posições específicas para permitir a detecção e correção de erros. 
